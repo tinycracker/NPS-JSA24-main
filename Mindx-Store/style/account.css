@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.account-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95vw;
+    max-width: 900px;
+    padding: 100px;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 2px 2px 15px #00000023;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.account-box > *{
+    flex: 1;
+}
+
+.account-box h2{
+    margin: 0 0 30px;
+    padding: 0px;
+    font-size: 35px;
+}
+
+.account-box .user-box input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.account-box .user-box input:focus{
+    border: 2px solid #c00307;
+}
+
+.account-box form button{
+    padding: 10px 20px;
+    background: #c00307;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.account-box form button:hover{
+    background: #c00306c6;
+}
+
+.account{
+    text-decoration: none;
+    color: #c00307;
+}
+
+.account:hover{
+    text-decoration: underline;
+}

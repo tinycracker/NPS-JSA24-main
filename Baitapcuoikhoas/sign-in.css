@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+ 
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231108/pngtree-2024-chinese-spring-festival-year-of-the-dragon-background-creative-image_13945130.jpg");
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+}
+
+
+.sign-in {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fdfdfd;
+    box-shadow: 2.5px 2px 2.5px 2.5px rgba(0, 0, 0, 0.16);
+    height: 73vh;
+    width: 33.5vw;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .space{
+    color: rgb(169, 14, 14);
+    width: 33.5vw;
+    height:42px ;
+    
+        border-bottom: 2px solid rgba(124, 121, 121, 0.211);
+    
+  }
+
+  .no-account{
+    
+    width: 33.5vw;
+    height:46px ;
+    
+        border-top: 2px solid rgba(124, 121, 121, 0.211);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        line-height: 50px;
+  }
+
+  .in4 input{
+    width: 72vh;
+    height: 40px;
+    padding-left: 10px; 
+  }
+
+  .in4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .phone{
+    padding: 20px;
+  }
+
+  .pass{
+    padding: 20px;
+  }
+
+  .in4 button{
+background-color: #c1212d;
+width: 72vh;
+height: 47px;
+font-weight: 600;
+color: #fff;
+border-radius: 5px;
+
+  /* Existing styles */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+
+.in4 p{
+    padding: 3px;
+}
+
+.no-account a{
+    color: #1275cd
+}
+
+
+  

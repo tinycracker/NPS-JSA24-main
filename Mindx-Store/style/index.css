@@ -1,0 +1,109 @@
+#carouselExampleCaptions {
+  height: 600px;
+}
+
+
+#carouselExampleCaptions .carousel-inner .carousel-item {
+  height: 600px;
+}
+
+/* #carouselExampleCaptions .carousel-inner .carousel-item img{
+  height: 600px;
+} */
+
+.features {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.features>div {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.features>div>div {
+  display: flex;
+  width: 48%;
+  padding: 30px 35px;
+  background: #f6f7f9;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.features i {
+  width: 30px;
+  font-size: 30px;
+  color: #f8516f;
+}
+
+.features div {
+  font-size: 18px;
+}
+
+.features strong {
+  color: #000;
+}
+
+.features p {
+  color: #808080;
+  margin-top: 5px;
+}
+
+
+.main-content {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* style các products */
+
+#products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 22%;
+  margin: 15px;
+}
+
+.card .image-container img{
+  /* width: 235px;
+  height: 235px; */
+  width: 100%;
+}
+
+.card .container{
+  padding-top: 10px;
+  border-top: 1px solid rgb(231, 227, 227);
+  position: relative;
+}
+
+.stars i{
+  color: #f7bc00;
+}
+
+.card .old-price{
+  text-decoration: line-through;
+  font-size: smaller;
+}
+
+.card .new-price{
+  color: rgb(28, 105, 138);
+ font-size: larger;
+ font-weight: bold;
+}
+
+.btn-add-to-cart{
+  position: absolute;
+  bottom: 10px;
+right: 5px;
+}

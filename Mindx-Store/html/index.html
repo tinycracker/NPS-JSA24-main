@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindX Store</title>
+
+  <!-- Nhúng Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Nhúng google font vào dự án -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Nhúng bootstrap vào website -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/index.css">
+
+</head>
+
+<body>
+  <!-- Code HTML tại đây -->
+  <div class="navbar">
+    <div class="upper-navbar">
+      <a href="./index.html">
+        <h1>Mind<span>X</span> Store</h1>
+      </a>
+
+      <form class="search" method="get" action="./search.html">
+        <input type="text" placeholder="Search for product ..." name="q" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="icons">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </div>
+
+
+    <div class="lower-navbar">
+      <div class="header">
+
+      </div>
+
+      <div>
+        <div class="all-categories" tabindex="0">
+          <div>
+            <span>
+              <i class="fa-solid fa-align-left"></i>
+              <span>All Categories</span>
+            </span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="category-drops"></div>
+        </div>
+        <div class="drop" tabindex="0">
+          <a href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a href="#" class="list-child">Electronic</a>
+            <a href="#" class="list-child">Fashion</a>
+            <a href="#" class="list-child">Beauty</a>
+          </div>
+        </div>
+        <div class="drop" tabindex="0">
+          <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a href="#" class="list-child">Shop pages</a>
+            <a href="#" class="list-child">Features</a>
+            <a href="#" class="list-child">Hover style</a>
+          </div>
+        </div>
+        <div class="drop" tabindex="0">
+          <a href="#">Products <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a href="#" class="list-child">Shop pages</a>
+            <a href="#" class="list-child">Categories</a>
+            <a href="#" class="list-child">Shopping Cart</a>
+            <a href="#" class="list-child">Wishlist</a>
+            <a href="#" class="list-child">Wish Video</a>
+          </div>
+        </div>
+        <div class="drop" tabindex="0">
+          <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="list">
+            <a href="#" class="list-child">Blog Sandard</a>
+            <a href="#" class="list-child">Blog Grid</a>
+          </div>
+        </div>
+
+        <div class="hide"><a href="./contact.html">Contact</a></div>
+      </div>
+
+      <div class="contact">
+        <i class="fa-solid fa-phone" style="color: rgb(89, 157, 230);"></i>
+        <div>
+          <p>Hotline:</p>
+          <p>+123 456 789</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://theme.hstatic.net/200000567211/1000920076/14/slideshow_1.jpg?v=255" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://wallpaperboat.com/wp-content/uploads/2020/11/26/61712/samsung-02-920x518.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://wallpaperboat.com/wp-content/uploads/2020/11/26/61712/samsung-18-920x518.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- categories -->
+  <div class="main-content">
+    <div id="categories">
+
+    </div>
+
+    <div class="features">
+      <div>
+        <!-- Free delivery -->
+        <div>
+          <i class="fa-solid fa-cube"></i>
+          <div>
+            <strong>Free Delivery</strong>
+            <p>Orders from all item</p>
+          </div>
+        </div>
+
+        <!-- Return & Refund -->
+        <div>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <div>
+            <strong>Return & Refundry</strong>
+            <p>Money back guarantee</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Member Discount -->
+        <div>
+          <i class="fa-solid fa-percent"></i>
+          <div>
+            <strong>Member Discount</strong>
+            <p>One very order over $140</p>
+          </div>
+        </div>
+
+        <!-- Support 24/7  -->
+        <div>
+          <i class="fa-solid fa-headphones"></i>
+          <div>
+            <strong>Support 24/7</strong>
+            <p>Contact us 24 hours a day</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <h3 class="heading">Trending Products</h3>
+
+    <div id="products"></div>
+
+  </div>
+
+
+
+  <script src="../scripts/data.js"></script>
+  <script src="../scripts/product.js"></script>
+</body>
+
+
+</html>

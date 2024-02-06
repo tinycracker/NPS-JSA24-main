@@ -1,0 +1,1 @@
+let index1 = "Đây là index 1";
