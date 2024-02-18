@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up</title>
-    <!-- Nhúng Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Submit complaint information</title>
+     <!-- Nhúng Fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="../Style/index.css">
-    <link rel="stylesheet" href="../Style/sign-up.css">
+ <!-- Nhúng google font vào dự án -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poor+Story&display=swap"
+     rel="stylesheet">
+
+ <!-- Nhúng bootstrap vào website -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+
+
+ <link rel="stylesheet" href="../Style/index.css">
+ <link rel="stylesheet" href="../Style/Sci.css">
 </head>
 <body>
-    
     <!-- Navbar -->
     <div class="navbar">
         <div class="upper-navbar">
@@ -62,7 +76,7 @@
                   </div>
                 </div>
                 <div class="drop" tabindex="0">
-                  <a href="#">Customer Support<i class="fa-solid fa-chevron-down"></i></a>
+                  <a href="#">Customer Support <i class="fa-solid fa-chevron-down"></i></a>
                   <div class="list">
                     <a href="#" class="list-child">Frequently asked questions</a>
                     <a href="#" class="list-child">Submit complaint information</a>
@@ -84,39 +98,31 @@
               </div>
           </div>
         </div>
-  
-        <!-- Sign in -->
-    <div class="sign-in">
-        <div class="space">
-            <h4>Creat a new account</h4>
-            <p>Already have account? <a href="./sign-in.html"><span>Sign-in</span></a></p>
-        </div>
-        <div class="in4">
-            <div class="name">
-                <p>Name</p>
-                <input type="text" required="" placeholder="Please write your name">
+
+
+        <div class="container">
+            <div class="head">
+<b>Home >> Submit complaint information</b>
             </div>
-        <div class="phone">
-            <p>Phone number/Email</p>
-            <input type="text" required="" placeholder="Please enter email or phone number">
+            <div class="body">
+                <div class="in4">
+                    <p>Name</p>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="in4">
+                    <p>Phone Number</p>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="in4">
+                    <p>Address</p>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="in4">
+                    <p>Code</p>
+                    <input type="text" placeholder="">
+                </div>
+            </div>
         </div>
-        <div class="pass">
-            <p>Password</p>
-            <input type="password" required="" placeholder="Please enter password">
-        </div>
-        <div class="confirm">
-            <p>Confirm Password</p>
-            <input type="password" required="" placeholder="Confirm password">
-        </div>
-        
-        <button type="submit">SIGN UP</button>
 
-        <div class="more">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eum libero molestiae, iusto qui quisquam laborum expedita quidem? Odit, quidem nesciunt quibusdam temporibus assumenda a voluptates laudantium quia porro culpa!</p>
-        </div>
-    
-    </div>
-
-    </div>
 </body>
 </html>

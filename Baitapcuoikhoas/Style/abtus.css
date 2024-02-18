@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+  }
+  
+  .home1 {
+  
+    background-image: url("https://jtexpress.vn/storage/app/uploads/public/628/598/69c/62859869c9723182554168.jpg");
+  height: 100vh;
+
+  
+  }
+
+
+  .home1 h1{
+color: #ffffff;
+font-size: 52px;
+padding: 25px;
+position: relative;
+top: 420px;
+
+  }
+
+  .small{
+    background-color: #ffffff;
+    height: 275px;
+    width: 525px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2.5px 2px 2.5px 2.5px rgba(0, 0, 0, 0.16);
+    top: 420px;
+    
+    
+  }
+
+  .small p{
+    padding: 20px;
+  }
