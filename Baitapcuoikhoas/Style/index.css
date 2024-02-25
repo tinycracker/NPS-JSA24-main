@@ -193,8 +193,67 @@ margin-right: 30px;
 .phone{
  margin-bottom: -20px;
 }
+.top{
+  height: 100vh;
+}
+.inside{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
 
+.inside h1{
+  position: relative;
+  font-size: 52px;
+  font-weight:300 ;
+  top: 140px;
+}
 
+.customer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  top: 300px;
+}
+
+.inside p{
+  position: relative;
+  top: 140px;
+}
+.mid{
+  padding-top: 75px;
+  background-color: #33333329;
+}
+
+.mid-top h1{
+  font-size: 40px;
+  font-weight:300 ;
+}
+
+.mid-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mid-bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 35px 62px;
+  
+}
+
+.one-forth{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 
 

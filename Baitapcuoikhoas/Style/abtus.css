@@ -6,10 +6,14 @@
   
   }
   
+  .home{
+    padding-bottom: 30px;
+  }
   .home1 {
   
     background-image: url("https://jtexpress.vn/storage/app/uploads/public/628/598/69c/62859869c9723182554168.jpg");
   height: 100vh;
+  background-position: center;
 
   
   }
@@ -21,10 +25,20 @@ font-size: 52px;
 padding: 25px;
 position: relative;
 top: 420px;
+z-index: 1;
+
 
   }
 
+  .smallhome {
+    position: absolute;
+    top: 55px;
+    left: 5%;}
+    /* transform: translate(-50%, -50%);
+text-align: center;} */
+
   .small{
+
     background-color: #ffffff;
     height: 275px;
     width: 525px;
@@ -43,3 +57,72 @@ top: 420px;
   .small p{
     padding: 20px;
   }
+
+  .home2{
+    display: flex;
+    flex-direction: row;
+  position: relative;
+  z-index: 1;
+ top: -64px ;
+ padding-left: 104vh;
+ justify-content: space-evenly;
+
+}
+
+.circle{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.circle h3{
+  font-size: larger;
+  color: red;
+padding-top: 15px;
+}
+
+.circle p{
+  font-size: smaller;
+}
+
+.home1 p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 20px;
+  position: relative;
+  top: -12px;
+}
+
+
+.man{
+  background-image: url("https://scontent.fhan14-2.fna.fbcdn.net/v/t1.15752-9/423422367_800012888634539_6613752221357159714_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGeL-4mf9pFkUcm6NhVcNdgntezwkvzw4ye17PCS_PDjLbwAyNfjb0PrsopeJyU4qVBTNAmW4CFrP3LbNoN3B3w&_nc_ohc=qCpoxmL3GaEAX-JSq-1&_nc_ht=scontent.fhan14-2.fna&oh=03_AdSRkG-cA1HO8rOWp0W2hE9qDthCSowf7cJmKp-PLpbzBw&oe=66015861");
+  height: 100vh;
+  
+  background-size: contain;
+  background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+   width: 250vh;
+    
+}
+
+.vision{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+ 
+}
+.content{
+  padding-left: 120px;
+}
+
+.vision .up i {
+  font-size: 72px; /* Kích thước mong muốn */
+  
+}
+
+
+
+

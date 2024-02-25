@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contact{
+    box-sizing: border-box;
+   
+    padding: 40px 80px;
+
+}
+.line {
+    margin-bottom: 16px; 
+    font-size: large;
+    
+}
+
+.office{
+    padding-top: 17px;
+}
